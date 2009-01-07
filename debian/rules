@@ -14,7 +14,7 @@ build: build-stamp
 build-stamp:    desktop-nvidia-$(DEB_BUILD_ARCH) desktop-ati-$(DEB_BUILD_ARCH) desktop-open-$(DEB_BUILD_ARCH)
 	dh_clean
 
-	for seed in desktop-ati desktop-nvidia; do \
+	for seed in desktop-ati desktop-nvidia desktop-open; do \
 		package=neuroslink-$$seed; \
 		(printf "$$package:Depends="; perl -pe 's/\n/, /g'  $$seed-$(DEB_BUILD_ARCH); echo) \
 			>> debian/$$package.substvars; \
