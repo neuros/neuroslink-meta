@@ -1,0 +1,54 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+
+clean:
+	dh_testdir
+	dh_clean
+
+	rm -rf build-stamp *.old debootstrap-dir
+
+DEB_BUILD_ARCH:=$(shell dpkg-architecture -qDEB_BUILD_ARCH)
+
+build: build-stamp
+build-stamp:    desktop-nvidia-$(DEB_BUILD_ARCH) desktop-ati-$(DEB_BUILD_ARCH)
+	dh_clean
+
+	for seed in desktop-ati desktop-nvidia; do \
+		package=neuroslink-$$seed; \
+		(printf "$$package:Depends="; perl -pe 's/\n/, /g'  $$seed-$(DEB_BUILD_ARCH); echo) \
+			>> debian/$$package.substvars; \
+		(printf "$$package:Recommends="; perl -pe 's/\n/, /g'  $$seed-recommends-$(DEB_BUILD_ARCH); echo) \
+			>> debian/$$package.substvars; \
+	done
+	touch $@
+
+install: build-stamp
+
+binary-arch: install
+	dh_testdir -a
+	dh_testroot -a
+	dh_installdocs -a
+	dh_installchangelogs -a
+	dh_compress -a
+	dh_fixperms -a
+	dh_installdeb -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
+
+binary-indep:
+	dh_testdir -i
+	dh_testroot -i
+	dh_installdocs -i
+	dh_installchangelogs -i
+	dh_compress -i
+	dh_fixperms -i
+	dh_installdeb -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+
+binary: binary-indep binary-arch
+
+.PHONY: binary binary-arch binary-indep clean checkroot build

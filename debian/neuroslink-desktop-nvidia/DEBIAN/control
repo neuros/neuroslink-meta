@@ -1,0 +1,17 @@
+Package: neuroslink-desktop-nvidia
+Source: neuroslink-meta
+Version: 1.0
+Architecture: i386
+Maintainer: Tom Bruno <tbruno@neurostechnology.com>
+Installed-Size: 32
+Depends: acpi, acpi-support, acpid, alacarte, alsa-base, alsa-utils, anacron, apmd, bc, ca-certificates, consolekit, cups, cups-bsd, cups-client, cups-driver-gutenprint, dc, dcraw, desktop-file-utils, eog, evince, file-roller, foomatic-db, foomatic-db-engine, foomatic-filters, gcalctool, gconf-editor, gdebi, gdm, gedit, genisoimage, ghostscript-x, gnome-about, gnome-app-install, gnome-applets, gnome-control-center, gnome-icon-theme, gnome-media, gnome-menus, gnome-netstatus-applet, gnome-nettool, gnome-panel, gnome-power-manager, gnome-session, gnome-spell, gnome-system-monitor, gnome-system-tools, gnome-terminal, gnome-themes, gnome-utils, gstreamer0.10-alsa, gstreamer0.10-plugins-base-apps, gstreamer0.10-schroedinger, gtk2-engines, gtk2-engines-pixbuf, hal, hotkey-setup, hwtest-gtk, inputattach, language-selector, lftp, libcanberra-gnome, libgl1-mesa-glx, libglut3, libgnome2-perl, libgnomevfs2-bin, libgnomevfs2-extra, libpam-ck-connector, libpt-1.10.10-plugins-v4l, libpt-1.10.10-plugins-v4l2, libsasl2-modules, libxp6, metacity, nautilus, notification-daemon, openprinting-ppds, pcmciautils, pnm2ppa, powermanagement-interface, rarian-compat, readahead, rss-glx, screensaver-default-images, seahorse, smbclient, software-properties-gtk, ssh-askpass-gnome, synaptic, system-config-printer-gnome, tangerine-icon-theme, ttf-bitstream-vera, ttf-dejavu-core, ttf-freefont, ubuntu-artwork, ubuntu-sounds, unzip, update-manager, update-notifier, usplash, wireless-tools, wpasupplicant, x-ttcidfont-conf, xdg-user-dirs, xdg-user-dirs-gtk, xkb-data, xorg, xscreensaver-data, xscreensaver-gl, xterm, yelp, zenity, zip, flashplugin-nonfree, wine, mythtv, mythvideo, mythmusic, mythgallery, mplayer, vlc, nfs-common, smbfs, neuroslink-restricted-extras, neuroslink-wallpapers, mythtv-theme-neuroslink, neuroslink-artwork-usplash, firefox-default-profile, neuroslink-default-settings-nvidia
+Section: metapackages
+Priority: optional
+Description: The Neuros Link standalone system
+ This package depends on all of the packages in the Neuros Link standalone system.
+ This set of packages provides the essentials for an operable Neuros Link
+ system. This configuration is limited to Neuros Link hardware and therefore
+ installs non-free drivers for Nvidia automatically.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.

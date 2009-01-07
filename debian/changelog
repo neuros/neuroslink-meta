@@ -1,0 +1,55 @@
+neuroslink-meta (1.0) intrepid; urgency=low
+
+  * Split Nvidia and Ati configurations
+  * Rename to neuroslink-meta
+  * Size down more default installed software
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 06 Jan 2009 14:29:44 -0600
+
+neurostvpc-meta (0.07) intrepid; urgency=low
+
+  * Remove ubuntu-desktop
+  * Remove ubuntu-restricted-extras
+  * Merge ubuntu-desktop with wanted applications
+  * Add neurostvpc-restricted-extras
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 09 Dec 2008 15:51:35 -0600
+
+neurostvpc-meta (0.06) intrepid; urgency=low
+
+  * Add custom desktop image
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Thu, 20 Nov 2008 11:29:55 -0600
+
+neurostvpc-meta (0.05) jaunty; urgency=low
+
+  * Added MythVideo, MythGallery, MtyhMusic
+  * Added smbfs for smb mounts
+  * Added nfs-common for nfs mounts
+
+ -- Tom Bruno <tom@intrepid-dev.localdomain>  Wed, 19 Nov 2008 18:20:53 -0600
+
+neurostvpc-meta (0.04) intrepid; urgency=low
+
+  * Add Neuros Link Bootup/Shutdown Splash
+  * Add mplayer and mythtv to app list
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 19 Nov 2008 13:44:02 -0600
+
+neurostvpc-meta (0.03) intrepid; urgency=low
+
+  * Add Neuros TVPC default firefox profile install
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Sun, 09 Nov 2008 15:42:05 -0600
+
+neurostvpc-meta (0.02) intrepid; urgency=low
+
+  * Install ubuntu restricted codecs for wma, mp3, etc
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Mon, 03 Nov 2008 12:09:39 -0600
+
+neurostvpc-meta (0.01) intrepid; urgency=low
+
+  * Initial release. Configures system to neurostvpc install
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Mon, 03 Nov 2008 11:00:28 -0600
