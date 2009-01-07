@@ -11,7 +11,7 @@ clean:
 DEB_BUILD_ARCH:=$(shell dpkg-architecture -qDEB_BUILD_ARCH)
 
 build: build-stamp
-build-stamp:    desktop-nvidia-$(DEB_BUILD_ARCH) desktop-ati-$(DEB_BUILD_ARCH)
+build-stamp:    desktop-nvidia-$(DEB_BUILD_ARCH) desktop-ati-$(DEB_BUILD_ARCH) desktop-open-$(DEB_BUILD_ARCH)
 	dh_clean
 
 	for seed in desktop-ati desktop-nvidia; do \

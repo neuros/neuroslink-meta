@@ -1,6 +1,6 @@
 neuroslink-meta (1.0) intrepid; urgency=low
 
-  * Split Nvidia and Ati configurations
+  * Split Nvidia, Ati, and Open Source configurations
   * Rename to neuroslink-meta
   * Size down more default installed software
 
