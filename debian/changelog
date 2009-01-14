@@ -1,3 +1,10 @@
+neuroslink-meta (1.01) intrepid; urgency=low
+
+  * Remove gimp from system
+  * Remove Gnome Tracker search tool from system to minimize writes
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 14 Jan 2009 09:52:24 -0600
+
 neuroslink-meta (1.0) intrepid; urgency=low
 
   * Split Nvidia, Ati, and Open Source configurations
