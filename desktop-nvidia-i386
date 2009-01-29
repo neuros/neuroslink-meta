@@ -119,6 +119,7 @@ mplayer
 vlc
 nfs-common
 smbfs
+ntfs-3g
 
 neuroslink-restricted-extras
 neuroslink-wallpapers
