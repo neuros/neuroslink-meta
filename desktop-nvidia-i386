@@ -111,10 +111,6 @@ zenity
 zip
 flashplugin-nonfree
 wine
-mythtv
-mythvideo
-mythmusic
-mythgallery
 mplayer
 vlc
 nfs-common
@@ -123,7 +119,6 @@ ntfs-3g
 
 neuroslink-restricted-extras
 neuroslink-wallpapers
-mythtv-theme-neuroslink
 neuroslink-artwork-usplash
 firefox-default-profile
 neuroslink-default-settings-nvidia
