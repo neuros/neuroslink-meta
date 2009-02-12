@@ -1,3 +1,10 @@
+neuroslink-meta (1.01) intrepid; urgency=low
+
+  * Update to any arch
+  * Build details for amd64
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 11 Feb 2009 22:55:00 -0600
+
 neuroslink-meta (1.0) intrepid; urgency=low
 
   * Split Nvidia, Ati, and Open Source configurations

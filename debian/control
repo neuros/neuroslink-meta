@@ -6,7 +6,7 @@ Standards-Version: 3.7.3
 Build-Depends: debhelper (>= 5), germinate (>= 0.28)
 
 Package: neuroslink-desktop-nvidia
-Architecture: i386
+Architecture: any
 Depends: ${neuroslink-desktop-nvidia:Depends}
 Recommends: ${neuroslink-desktop-nvidia:Recommends}
 Conflicts: neuroslink-desktop-ati, neuroslink-desktop-open
@@ -20,7 +20,7 @@ Description: The Neuros Link standalone system
  it not be removed.
 
 Package: neuroslink-desktop-ati
-Architecture: i386
+Architecture: any
 Depends: ${neuroslink-desktop-ati:Depends}
 Recommends: ${neuroslink-desktop-ati:Recommends}
 Conflicts: neuroslink-desktop-nvidia, neuroslink-desktop-open
@@ -34,7 +34,7 @@ Description: The Neuros Link standalone system
  it not be removed.
 
 Package: neuroslink-desktop-open
-Architecture: i386
+Architecture: any
 Depends: ${neuroslink-desktop-open:Depends}
 Recommends: ${neuroslink-desktop-open:Recommends}
 Conflicts: neuroslink-desktop-nvidia, neuroslink-desktop-ati
@@ -46,4 +46,5 @@ Description: The Neuros Link standalone system
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
 
