@@ -1,7 +1,10 @@
-neuroslink-meta (1.01) intrepid; urgency=low
+neuroslink-meta (1.02) intrepid; urgency=low
 
   * Update to any arch
   * Build details for amd64
+  * Remove gimp from system
+  * Remove Gnome Tracker search tool from system to minimize writes
+  
 
  -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 11 Feb 2009 22:55:00 -0600
 
