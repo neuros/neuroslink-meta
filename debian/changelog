@@ -1,3 +1,14 @@
+neuroslink-meta (1.03) intrepid; urgency=low
+
+  * Remove pidgin (to be replaced by gijam)
+  * Remove xsane
+  * Remove Totem (to be replaced by smplayer)
+  * Remove Totem-mozilla (causes issues with some media)
+  * Remove HP printer daemons
+  * Remove pcmcia utils
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Mon, 23 Feb 2009 15:22:15 -0600
+
 neuroslink-meta (1.02) intrepid; urgency=low
 
   * Update to any arch

@@ -17,7 +17,6 @@ fast-user-switch-applet
 firefox
 firefox-gnome-support
 foo2zjs
-foomatic-db-hpijs
 gcc
 gdm-guest-session
 gnome-games
@@ -25,7 +24,6 @@ gnome-mag
 gnome-screensaver
 gvfs-fuse
 hal-cups-utils
-hplip
 im-switch
 jockey-gtk
 laptop-detect
@@ -39,8 +37,6 @@ mousetweaks
 nautilus-share
 network-manager-gnome
 onboard
-pidgin
-pidgin-otr
 powernowd
 pxljr
 rhythmbox
@@ -49,8 +45,6 @@ scim-bridge-agent
 scim-bridge-client-gtk
 scim-gtk2-immodule
 splix
-totem
-totem-mozilla
 transmission-gtk
 ttf-arabeyes
 ttf-arphic-uming
@@ -66,4 +60,3 @@ vino
 wodim
 xcursor-themes
 xdg-utils
-xsane
