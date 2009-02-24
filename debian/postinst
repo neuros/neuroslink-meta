@@ -1,0 +1,12 @@
+#!/bin/bash
+#if [ -x /etc/link-version ]
+#then
+#	VERSION=`cat /etc/link-version`
+#else
+#	VERSION=0
+#fi
+
+#if [ $VERSION -le 121 ]; then
+#	aptitude markauto mythtv mythvideo mythmusic mythgallery mythtv-theme-neuroslink pcmciautils foomatic-db-hpijs hplip pidgin pidgin-otr totem totem-mozilla xsane gimp libdeskbar-tracker tracker tracker-search-tool 
+#fi
+
