@@ -1,3 +1,25 @@
+neuroslink-meta (1.04) intrepid; urgency=low
+
+  * Move non-critical packages to recommends so if we change what software
+    we want installed the old package will be marked for removal automatically
+  * Remove dc
+  * Remove bc
+  * Remove cups
+  * Remove cups-bsd
+  * Remove cups-client
+  * Remove cups-driver-gutenprint
+  * Remove foomatic-db
+  * Remove foomatic-db-engine
+  * Remove foomatic-filters
+  * Remove openprinting-ppds
+  * Remove genisoimage
+  * Remove ghostscript-x
+  * Remove system-config-printer-gnome
+  * Remove pnm2ppa
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Mon, 23 Feb 2009 15:22:15 -0600
+
+
 neuroslink-meta (1.03) intrepid; urgency=low
 
   * Remove pidgin (to be replaced by gijam)
