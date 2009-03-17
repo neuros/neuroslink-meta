@@ -1,3 +1,9 @@
+neuroslink-meta (1.05) intrepid; urgency=low
+
+  * Add XBMC to default install
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 17 Mar 2009 16:07:29 -0500
+
 neuroslink-meta (1.04) intrepid; urgency=low
 
   * Move non-critical packages to recommends so if we change what software
