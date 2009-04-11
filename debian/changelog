@@ -1,14 +1,8 @@
-neuroslink-meta (1.07) intrepid; urgency=low
+neuroslink-meta (1.05neuros2) intrepid; urgency=low
 
   * Add smplayer to default install
 
  -- Tom Bruno <tbruno@neurostechnology.com>  Mon, 30 Mar 2009 12:48:10 -0500
-
-neuroslink-meta (1.06) jaunty; urgency=low
-
-  * Add LinkHome to default install
-
- -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 18 Mar 2009 16:02:25 -0500
 
 neuroslink-meta (1.05) intrepid; urgency=low
 
